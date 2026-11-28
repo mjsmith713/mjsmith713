@@ -10,6 +10,8 @@ I build reproducible, cloud-native geospatial workflows in **Python (`GeoPandas`
 
 | Project | Remote Sensing & Spatial Methods | CRS | Repository |
 | :--- | :--- | :--- | :--- |
+| **Contiguous U.S. Decadal Thermal Anomaly & Mid-Century Climate Augmentation** | `10-km` thin-plate spline `RBF` heat map interpolation contrasting NOAA `2016–2026` observed warming (`+2.23 °F`) vs. CMIP6 `2036–2050` `SSP2-4.5`/`SSP5-8.5` projections (`Spearman ρ = +0.607, p < 0.0001`) | `EPSG:5070` | [CONUS-Climate-Augmentation-Heatmap](https://github.com) |
+
 | **Multi-State Atmospheric Plume & 10-Year Health Risk Trajectory (IAAAP, Iowa)** | Multi-state dispersion modeling (`IA, IL, MO, WI, MN, NE, KS`), **Sentinel-2 L2A `NDVI`** (`AWS STAC`), `USGS NHD` hydrology, & 10-year topsoil lead remediation curves (`2026–2036`) | `EPSG:26915` | [Iowa-IAAAP-Plume-Impact](https://github.com) |
 | **Readfield & Belgrade Lakes Spring Ice-Out Phenology (Maine)** | Cloud-native **AWS Earth Search STAC** streaming of **Sentinel-2 L2A `NDSI`** (`MGRS-19TDK`) & basin morphometry correlation (`Spearman ρ = 0.72, p < 0.0001`) | `EPSG:26919` | [Maine-Lake-Ice-Phenology](https://github.com) |
 | **Arctic Permafrost InSAR Ground Deformation & TAPS Geohazards (Alaska)** | **Sentinel-1 C-band InSAR** vertical subsidence modeling (`mm/yr`) along the **Trans-Alaska Pipeline System (TAPS)** & Dalton Highway | `EPSG:3338` | [Arctic-Permafrost-InSAR-TAPS](https://github.com) |
